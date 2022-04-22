@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+
+	<listeners>
+		<listener class-name = "test.Listeners" />
+	</listeners>
+
+	<!-- Parameters that are applicable to the entire Test Suite -->
+	<parameter name = "URL" value = "URLtestSuiteLevel.com"/>
+
+
+  <test name="Personal Loan">
+  	<!-- Parameters that are applicable to the entire Test / Folder / Module -->
+	<parameter name = "URL" value = "URLtestLevel.com"/>
+	<parameter name = "API" value = "APItestLevel.com"/>
+    
+    <classes>
+    	<class name = "test.day3" />
+    	<class name = "test.day4" />
+    </classes>
+    
+    
+  </test> <!-- Test -->
+
+  
+  
+</suite> <!-- Suite -->

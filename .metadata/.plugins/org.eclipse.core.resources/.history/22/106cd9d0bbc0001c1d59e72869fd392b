@@ -1,0 +1,51 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LandingPage {
+	
+	public WebDriver driver;
+	
+	public LandingPage(WebDriver driver) {
+		
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		
+	}//constructor
+	
+	@FindBy (linkText = "Login")
+	WebElement signInLink;
+	
+	@FindBy (className = "text-center")
+	WebElement pageTitle;
+	
+	@FindBy (className = "navbar-right")
+	WebElement menuNavBar;
+
+
+	
+	
+	public WebElement getLogIn() {
+		
+		return signInLink;
+		   
+	}//getLogIn
+	
+	public WebElement getTitle() {
+		
+		return pageTitle;
+		   
+	}//getLogIn
+	
+	public WebElement getMenuNavBar() {
+		
+		return menuNavBar;
+		   
+	}//getNavBar
+	   
+
+
+}//class

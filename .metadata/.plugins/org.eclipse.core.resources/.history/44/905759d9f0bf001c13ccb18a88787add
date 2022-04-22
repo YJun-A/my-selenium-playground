@@ -1,0 +1,27 @@
+package QAMavenProject.E2EProject;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+import pageObjects.LoginPage;
+
+public class Home extends Base {
+	
+	@Test
+	public void basePageNavigation() throws IOException {
+		
+		driver = initializeDriver();
+		driver.get("http://qaclickacademy.com");
+		LandingPage LP = new LandingPage(driver);
+		LP.getLogIn().click();
+		
+		LoginPage LGP = new LoginPage(driver);
+		LGP.getEmailTextBox().sendKeys("test@email.com");
+		LGP.getPasswordTextBox().sendKeys("ABC123");
+		LGP.getLoginButton();
+		
+	}//basePageNavigation
+
+}//class

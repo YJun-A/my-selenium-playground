@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-api-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-api-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-chrome-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-chrome-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-chromium-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-chromium-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v85-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v85-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v95-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v95-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v96-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v96-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v97-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-devtools-v97-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-edge-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-edge-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-firefox-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-firefox-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-firefox-xpi-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-firefox-xpi-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-http-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-http-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-ie-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-ie-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-java-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-java-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-json-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-json-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-opera-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-opera-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-remote-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-remote-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-safari-driver-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-safari-driver-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-support-4.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/selenium-java-4.1.2/selenium-support-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/commons-io-2.11.0/commons-io-2.11.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/commons-io-2.11.0/commons-io-2.11.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/commons-io-2.11.0/commons-io-2.11.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/commons-io-2.11.0/commons-io-2.11.0-tests.jar"/>
+	<classpathentry kind="lib" path="/Users/yanjun/eclipse-workspace/commons-io-2.11.0/commons-io-2.11.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

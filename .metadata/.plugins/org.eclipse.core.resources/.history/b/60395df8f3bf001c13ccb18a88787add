@@ -1,0 +1,46 @@
+package QAMavenProject.E2EProject;
+
+import java.io.IOException;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+import pageObjects.LoginPage;
+
+public class Home extends Base {
+	
+	@DataProvider
+	public Object[][] getData() {
+		
+		//Rows stand for how many different data types test should run with
+		//Columns stand for how many values per test
+		Object[][] data = new Object[2][3];
+		data[0][0] = "nonrestricteduser@qw.com";
+		data[0][1] = "abc123";
+		data[0][2] = "Non Restricted User";
+		
+		data[1][0] = "restricteduser@qw.com";
+		data[1][1] = "123abc";
+		data[1][2] = "Restricted User";
+		
+		return data;
+		
+	}//getData
+	
+	@Test(dataProvider = "getData")
+	public void basePageNavigation(String username , String password) throws IOException {
+		
+		driver = initializeDriver();
+		driver.get("http://qaclickacademy.com");
+		LandingPage LP = new LandingPage(driver);
+		LP.getLogIn().click();
+		
+		LoginPage LGP = new LoginPage(driver);
+		LGP.getEmailTextBox().sendKeys(username);
+		LGP.getPasswordTextBox().sendKeys(password);
+		LGP.getLoginButton().click();
+		
+	}//basePageNavigation
+
+}//class

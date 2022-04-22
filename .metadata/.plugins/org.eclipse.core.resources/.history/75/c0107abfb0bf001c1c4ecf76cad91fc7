@@ -1,0 +1,14 @@
+package PackageA;
+
+import org.apache.logging.log4j.*;
+
+public class log4jDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}//main
+
+}//class

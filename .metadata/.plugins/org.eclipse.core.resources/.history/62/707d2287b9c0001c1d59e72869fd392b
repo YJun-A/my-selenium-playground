@@ -1,0 +1,51 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage {
+	
+	public WebDriver driver;
+	
+	public LoginPage(WebDriver driver) {
+		
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		
+	}//constructor
+	
+	@FindBy (css = "a[id='user_email']")
+	WebElement emailTB;
+	
+	@FindBy (css = "[type='password']")
+	WebElement passwordTB;
+	
+	@FindBy (css = "[value='Log In']")
+	WebElement loginBTN;
+
+
+	
+	
+	public WebElement getEmailTextBox() {
+		
+		return emailTB;
+		   
+	}//getEmailTextBox
+	
+	public WebElement getPasswordTextBox() {
+		
+		return passwordTB;
+		   
+	}//getPasswordTextBox
+	
+	public WebElement getLoginButton() {
+		
+		return loginBTN;
+		   
+	}//getPasswordTextBox
+	
+	
+
+}//class

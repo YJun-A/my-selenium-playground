@@ -1,0 +1,16 @@
+package PackageA;
+
+import org.apache.logging.log4j.*;
+
+public class log4jDemo {
+	
+	private static Logger log = LogManager.getLogger(log4jDemo.class.getName());
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}//main
+
+}//class

@@ -1,0 +1,19 @@
+package PackageA;
+
+import org.apache.logging.log4j.*;
+
+public class log4jDemo {
+	
+	private static Logger log = LogManager.getLogger(log4jDemo.class.getName());
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		log.debug("I am debugging");
+		log.error("Error has occurred");
+		log.info("I am giving info");
+		log.fatal("I am fatal message");
+
+	}//main
+
+}//class

@@ -1,0 +1,6 @@
+16:43:47.685 [main] ERROR PackageA.log4jDemoPackageA - Error has occurred
+16:43:47.690 [main] FATAL PackageA.log4jDemoPackageA - I am fatal message
+16:45:32.297 [main] ERROR PackageA.log4jDemoPackageA - Error has occurred
+16:45:32.300 [main] FATAL PackageA.log4jDemoPackageA - I am fatal message
+16:49:25.187 [main] ERROR PackageA.log4jDemoPackageA - Error has occurred
+16:49:25.192 [main] FATAL PackageA.log4jDemoPackageA - I am fatal message

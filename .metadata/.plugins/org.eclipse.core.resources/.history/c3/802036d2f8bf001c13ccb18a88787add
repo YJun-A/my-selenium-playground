@@ -1,0 +1,23 @@
+package QAMavenProject.E2EProject;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+
+public class Home3 extends Base {
+	
+	@Test
+	public void validateNavBar() throws IOException {
+		
+		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));
+		LandingPage LP = new LandingPage(driver);
+		Assert.assertTrue(LP.getMenuNavBar().isDisplayed());
+		
+	}//validateNavBar
+	
+
+}//class
